@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Testing Automation Bukalapak]">
+  <parameter name="browser" value="FF"/>
+  <parameter name="url" value="http://www.bukalapak.com"/>
+  <test name="Edit akun(failed)">
+    <classes>
+      <class name="bukalapak.Edit_akun">
+        <methods>
+          <include name="verifyEditAkunResult"/>
+          <include name="mengisiNama"/>
+          <include name="memilihProvinsi"/>
+          <include name="mengisiDeskripsi"/>
+          <include name="memilihTanggalLahir"/>
+          <include name="openBrowser"/>
+          <include name="memilihJenisKelamin"/>
+          <include name="gantiFotoProfile"/>
+          <include name="mengisiIsiNomorTelepon"/>
+          <include name="gantiBanner"/>
+          <include name="memilihKotaKabupaten"/>
+          <include name="closeBrowser"/>
+          <include name="memilihKecamatan"/>
+        </methods>
+      </class> <!-- bukalapak.Edit_akun -->
+    </classes>
+  </test> <!-- Edit akun(failed) -->
+</suite> <!-- Failed suite [Testing Automation Bukalapak] -->

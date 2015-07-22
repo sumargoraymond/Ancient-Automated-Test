@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/bukalapak/selenium_testng/library/javax.mail-1.4.7.jar"/>
+	<classpathentry kind="lib" path="D:/bukalapak/selenium_testng/library/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="D:/bukalapak/selenium_testng/library/selenium-java-2.46.0.jar"/>
+	<classpathentry kind="lib" path="D:/bukalapak/selenium_testng/library/selenium-java-2.46.0-srcs.jar"/>
+	<classpathentry kind="lib" path="D:/bukalapak/selenium_testng/library/selenium-server-standalone-2.46.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

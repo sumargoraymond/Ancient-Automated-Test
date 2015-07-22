@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing Automation Bukalapak" duration-ms="42589" started-at="2015-07-22T06:48:42Z" finished-at="2015-07-22T06:49:24Z">
+    <groups>
+    </groups>
+    <test name="Termahal" duration-ms="42589" started-at="2015-07-22T06:48:42Z" finished-at="2015-07-22T06:49:24Z">
+      <class name="bukalapak.Search_Filter_Termahal">
+        <test-method status="PASS" signature="openBrowser(org.testng.ITestContext)[pri:0, instance:bukalapak.Search_Filter_Termahal@6442b0a6]" name="openBrowser" is-config="true" duration-ms="20800" started-at="2015-07-22T13:48:42Z" finished-at="2015-07-22T13:49:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57a3e26a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="browseKeyword()[pri:0, instance:bukalapak.Search_Filter_Termahal@6442b0a6]" name="browseKeyword" duration-ms="3351" started-at="2015-07-22T13:49:02Z" finished-at="2015-07-22T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseKeyword -->
+        <test-method status="PASS" signature="checkFilterTermurah()[pri:0, instance:bukalapak.Search_Filter_Termahal@6442b0a6]" name="checkFilterTermurah" duration-ms="15414" started-at="2015-07-22T13:49:06Z" finished-at="2015-07-22T13:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFilterTermurah -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestContext)[pri:0, instance:bukalapak.Search_Filter_Termahal@6442b0a6]" name="closeBrowser" is-config="true" duration-ms="3009" started-at="2015-07-22T13:49:21Z" finished-at="2015-07-22T13:49:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57a3e26a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- bukalapak.Search_Filter_Termahal -->
+    </test> <!-- Termahal -->
+  </suite> <!-- Testing Automation Bukalapak -->
+</testng-results>

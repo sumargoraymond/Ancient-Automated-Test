@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Testing Automation Bukalapak" verbose="1">
+	<parameter name="url" value="http://www.bukalapak.com" />
+	<parameter name="browser" value="FF" />
+	<test name="Registrasi dengan email">
+		<classes>
+			<class name="bukalapak.Login_dengan_username"></class>
+		</classes>
+	</test>   
+</suite>
+	
