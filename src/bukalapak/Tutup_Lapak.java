@@ -141,6 +141,7 @@ public class Tutup_Lapak extends Settings{
 		TutupLapakPage tutupLapak = PageFactory.initElements(driver, TutupLapakPage.class);
 		tutupLapak.verifikasiLapakTertutupBuyer(tanggalVerifikasi[0], tanggalVerifikasi[1], tanggalVerifikasi[2]);
 		
+		//Add komen
 	}
 	
 }
